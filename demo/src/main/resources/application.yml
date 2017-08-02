@@ -1,0 +1,25 @@
+server:
+  port: 8080
+  tomcat:
+    uri-encoding: utf-8
+    
+spring:
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
+  jpa:
+    show-sql: true
+    properties:
+     hibernate:
+      hbm2ddl:
+       auto: update
+      dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+      thymeleaf:
+      cache: false 
+##########数据源
+  datasource:
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
