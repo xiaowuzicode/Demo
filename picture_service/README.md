@@ -15,7 +15,7 @@ For further reference, please consider the following sections:
 ### 启动：
  - main方法运行
  ```xml
- 配置：src/main/resources/application-properties redis 账号和密码
+ 配置：src/main/resources/application-properties redis ip和密码
  运行：src/main/java/org/aspirecn/picture_service/PictureServiceApplication
  访问：http://localhost:18081/Swagger-ui
 
