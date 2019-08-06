@@ -1,0 +1,14 @@
+server:
+    port: 8080
+spring:
+    profiles:
+        active: mysql
+    elasticsearch:
+        jest:
+          uris: http://localhost:9200
+          read-timeout: 30s
+    application:
+        name: springboot_es
+es:
+  index: es_blog_test
+  type: _doc

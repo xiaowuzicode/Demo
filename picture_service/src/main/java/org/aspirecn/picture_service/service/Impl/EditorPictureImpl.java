@@ -223,7 +223,4 @@ public class EditorPictureImpl implements EditorPicture {
         ImageIO.write(image, "png", outfile);
     };
 
-
-
-
 }

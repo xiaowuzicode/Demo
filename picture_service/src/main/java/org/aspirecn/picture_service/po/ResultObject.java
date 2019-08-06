@@ -23,6 +23,7 @@ public class ResultObject {
      */
     @JsonProperty(value = "message")
     private String message;
+
     /**
      * 对象
      */
